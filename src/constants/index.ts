@@ -1,52 +1,15 @@
-const Menu = [
-    {
-      id: 1,
-      name: "Home",
-      link: "/#",
-    },
-    {
-      id: 2,
-      name: "Top Rated",
-      link: "/#services",
-    },
-    {
-      id: 3,
-      name: "Kids Wear",
-      link: "/#",
-    },
-    {
-      id: 3,
-      name: "Mens Wear",
-      link: "/#",
-    },
-    {
-      id: 3,
-      name: "Electronics",
-      link: "/#",
-    },
-  ];
-  
-  const DropdownLinks = [
-    {
-      id: 1,
-      name: "Trending Products",
-      link: "/#",
-    },
-    {
-      id: 2,
-      name: "Best Selling",
-      link: "/#",
-    },
-    {
-      id: 3,
-      name: "Top Rated",
-      link: "/#",
-    },
-  ];
-
+import FOOTERLINKS from "./footer";
+import HEROLIST from "./hero";
+import NAVBARLINKS from "./navbar";
+import PRODUCTSDATA from "./products";
+import TESTIMONIALSDATA from "./testimonials";
+import TOPPRODUCTS from "./topProducts";
 
 export const CONSTANTS={
-    Menu,
-    DropdownLinks
-
-}
+  NAVBARLINKS,
+    FOOTERLINKS,
+    HEROLIST,
+    PRODUCTSDATA,
+    TOPPRODUCTS,
+    TESTIMONIALSDATA,
+};
